@@ -2,8 +2,8 @@ import streamlit as st
 import joblib
 import numpy as np
 
-best_model = joblib.load('model.joblib')
-scaler = joblib.load('scaler.joblib')
+best_model = joblib.load('model(1).joblib')
+scaler = joblib.load('scaler(1).joblib')
 
 st.title('Diabetes Progression Tracker ')
 st.write('This app helps you explore your diabetes risk based on the health information you provide.Simply enter the requested values in the fields below.Once you’ve completed all the fields, click Predict to see the result.This prediction is for educational purposes and does not replace medical advice.')
